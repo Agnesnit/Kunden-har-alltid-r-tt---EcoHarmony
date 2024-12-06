@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoHarmony</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <h1>EcoHarmony</h1>
+            <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+        </div>
+        <nav id="mobileMenu" class="hidden">
+            <a href="cards.html">Om Energilösningar</a>
+        </nav>
+    </header>
+
+    <main class="grid-container">
+        <div class="content">
+            <h1>Välkommen till EcoHarmony</h1>
+            <h2>Om oss</h2>
+            <p>
+                Välkommen till EcoHarmony! Vi strävar efter att skapa en hållbar framtid genom att erbjuda innovativa
+                energilösningar.
+                Vårt mål är att göra världen grönare och mer hållbar för framtida generationer.
+            </p>
+        </div>
+    </main>
+
+    <footer class="grid-footer">
+        <p>Kontakta oss: info@ecoharmony.com | Telefon: +46 123 456 789</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+</body>
+
+</html>
